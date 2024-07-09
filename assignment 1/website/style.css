@@ -1,0 +1,80 @@
+ *{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.information{
+    height: 25rem;
+    width: 40rem;
+    padding: 5rem;
+    z-index: 500;
+     position:relative;}
+
+
+.body{
+    width:30rem ;
+    line-height: 1.5rem;
+    margin-bottom: -80px;
+    font-size: 1rem;
+}
+.joinnow button {
+    height: 25px;
+    width: 105px;
+    border: 100px;
+    border-radius: 17px;
+    cursor: pointer; 
+    background-color: #3af7ae;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.image{
+    margin-left: 30vw;
+    margin-top: 50px;
+    margin-right: 0px;
+    height:50vh;
+    width: 400px;
+    padding-right: 0px;
+   }
+
+.nav-bar{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 89px;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(116, 116, 116);
+}
+.nav-right{
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 5rem;
+}
+.header-elements{
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+@media(max-width:1100px){
+    .main{
+        display: inline;
+    }
+    .heading{
+        display:inline;
+    }
+    .nav-bar{
+        display: inline;
+    }
+    
+    
+} 

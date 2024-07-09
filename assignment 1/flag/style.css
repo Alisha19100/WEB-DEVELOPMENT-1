@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+.box{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+}
+.upper{
+    height: 70px;
+    background-color: #00A9CE;
+}
+.middle{
+    height: 60px;
+    background-color: #FDDA25;
+}
+.lower{
+    height: 70px;
+    background-color: #00A9CE;
+}
+.triangle{
+    background: auto;
+    border-top: 100px solid transparent; 
+    border-bottom: 100px solid transparent;
+    border-left: 120px solid rgb(0, 0, 0);
+    position: relative;
+    top: -200px;
+    left: 0;} 
